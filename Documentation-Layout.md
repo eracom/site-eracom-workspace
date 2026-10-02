@@ -19,3 +19,5 @@ Etant donné que le **Container** fonctionne en Flexbox, cette largeur est une "
 ## Pour les page éditées dans WordPress Blocks Editor
 
 Ces pages utilisent un modèle généré par défaut, et n'ont pas le système Section > Container. Elles sont influencés par un code CSS personnalisé. Ce code se trouve sous : **Gestionnaire de styles > Styles de thème > Feuille de style**. Il cible les éléments #brx-content.wordpress qui identifient le contenu édité dans WordPress.
+
+La difficulté: le contenu WordPress étant dans un seul élément Article, on ne peut pas atteindre exactement le même réglage qu'avec une combinaison Section > Container.
