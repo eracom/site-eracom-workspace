@@ -15,3 +15,7 @@ Etant donné que le **Container** fonctionne en Flexbox, cette largeur est une "
 
 * On donne aux éléments **Section** un réglage de "Padding" à gauche et à droite, avec la variable var(--space-L). Cela assure que le contenu ne touche pas le bord.
 * Les **Container** n'ont pas de marge ou padding, mais leur largeur maximale est définie (voir ci-dessus).
+
+## Pour les page éditées dans WordPress Blocks Editor
+
+Ces pages utilisent un modèle généré par défaut, et n'ont pas le système Section > Container. Elles sont influencés par un code CSS personnalisé. Ce code se trouve sous : **Gestionnaire de styles > Styles de thème > Feuille de style**. Il cible les éléments #brx-content.wordpress qui identifient le contenu édité dans WordPress.
