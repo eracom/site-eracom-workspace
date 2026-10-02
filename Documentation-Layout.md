@@ -13,8 +13,15 @@ Etant donné que le **Container** fonctionne en Flexbox, cette largeur est une "
 
 ## Principes importants
 
-* On donne aux éléments **Section** un réglage de "Padding" à gauche et à droite, avec la variable var(--space-L). Cela assure que le contenu ne touche pas le bord.
-* Les **Container** n'ont pas de marge ou padding, mais leur largeur maximale est définie (voir ci-dessus).
+### 1. Padding sur les Sections
+
+On donne aux éléments **Section** un réglage de "Padding" à gauche et à droite, avec la variable var(--space-L). Cela assure que le contenu ne touche pas le bord. Ce réglage est fait sur le modèle de l'élément Section, il n'est pas nécessaire de l'appliquer à la main partout.
+
+<img width="550" height="114" alt="image" src="https://github.com/user-attachments/assets/c2ff2627-2588-409d-a33d-dc0472a65461" />
+
+### 2. Largeur maximale des Container. 
+
+Les **Container** n'ont pas de marge ou padding, mais leur largeur maximale est définie (voir ci-dessus).
 
 ## Pour les page éditées dans WordPress Blocks Editor
 
